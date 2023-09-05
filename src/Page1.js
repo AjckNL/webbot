@@ -9,17 +9,17 @@ function Desktop () {
         <div className="navigation-bar">
           <div className="database">
             <div className="text-wrapper-2">Database</div>
-            <img className="database-img" alt="Database img" src="database-img.png" />
+            <img className="database-img" alt="Database img" src={require('./database-img.png')} />
           </div>
           <div className="text-wrapper-3">HomePage</div>
           <div className="insight">
             <div className="text-wrapper-4">Insight</div>
-            <img className="insight-img" alt="Insight img" src="insight-img.png" />
+            <img className="insight-img" alt="Insight img" src={require('./insight-img.png')} />
           </div>
           <div className="search">
             <div className="overlap-group">
               <div className="text-wrapper-5">Search</div>
-              <img className="search-img" alt="Search img" src="search-img.png" />
+              <img className="search-img" alt="Search img" src={require('./search-img.png')} />
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@ function Desktop () {
               <div className="text-wrapper-10">iPhone 14 Pro Max</div>
               <div className="text-wrapper-11">Mozilla/5.0 (X11; Linux x86_64)...</div>
             </div>
-            <img className="image" alt="Image" src="image-2.png" />
+            <img className="image" alt="Image" src={require('./image-2.png')} />
             <div className="overlap-wrapper">
               <div className="overlap-3">
                 <div className="data-3">
@@ -85,7 +85,7 @@ function Desktop () {
                   <div className="text-wrapper-10">iPhone 14 Pro Max</div>
                   <div className="text-wrapper-11">Mozilla/5.0 (X11; Linux x86_64)...</div>
                 </div>
-                <img className="img" alt="Image" src="image-3.png" />
+                <img className="img" alt="Image" src={require('./image-3.png')} />
               </div>
             </div>
           </div>

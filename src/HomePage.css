@@ -29,7 +29,6 @@
 }
 
 .desktop .frame {
-  box-shadow: inset 0px 4px 4px #00000040;
   height: 113px;
   left: 263px;
   position: absolute;
@@ -47,15 +46,6 @@
   position: relative;
   top: 26px;
   width: 858px;
-}
-
-.desktop .search-img {
-  height: 37px;
-  left: 793px;
-  object-fit: cover;
-  position: absolute;
-  top: 11px;
-  width: 42px;
 }
 
 .desktop .reviews-management-wrapper {

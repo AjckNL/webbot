@@ -1,5 +1,5 @@
 import React from "react";
-import "./Page1.css";
+import "./HomePage.css";
 import SearchBar from './SearchBar.js';
 import Data from "./Data.json";
 
@@ -9,10 +9,7 @@ function Desktop () {
       <div className="overlap">
         <div className="text-wrapper">Webbot</div>
         <div className="frame">
-          <div className="overlap-group">
-            <SearchBar placeholder="Enter a Book Name..." data={Data} />
-            <img className="search-img" alt="Search img" src={require('./search-img.png')} />
-          </div>
+          <SearchBar placeholder="Enter a Book Name..." data={Data} />
         </div>
       </div>
       <div className="reviews-management-wrapper">

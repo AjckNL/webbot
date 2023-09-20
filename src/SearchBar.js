@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./SearchBar.css";
-import SearchIcon from "./search-img.png";
-import CloseIcon from "./search-bar.png";
 
 function SearchBar({ placeholder, data }) {
   const [filteredData, setFilteredData] = useState([]);
@@ -37,9 +35,9 @@ function SearchBar({ placeholder, data }) {
         />
         <div className="searchIcon">
           {filteredData.length === 0 ? (
-            <SearchIcon />
+            <img className="search-img" src={require('./search-img.png')} />
           ) : (
-            <CloseIcon id="clearBtn" onClick={clearInput} />
+            <img id="clearBtn" src={require('./Close_round.png')} onClick={clearInput}/>
           )}
         </div>
       </div>
